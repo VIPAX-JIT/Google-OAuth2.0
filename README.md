@@ -2,6 +2,14 @@
 
 This document explains how to implement **Google OAuth 2.0 authentication** using **Passport.js** with **Express Session** for maintaining user authentication in a Node.js application. It covers the steps and provides important code snippets.
 
+---
+
+## Request Flow
+
+![OAuth Workflow](./Flow.png)
+
+---
+
 ## Table of Contents
 1. [Overview](#overview)
 2. [Step-by-Step Authentication Flow](#step-by-step-authentication-flow)
