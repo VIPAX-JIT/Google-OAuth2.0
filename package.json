@@ -1,0 +1,25 @@
+{
+  "name": "google-oauth-sample",
+  "version": "1.0.0",
+  "description": "This document explains how to implement **Google OAuth 2.0 authentication** using **Passport.js** with **Express Session** for maintaining user authentication in a Node.js application. It covers the steps and provides important code snippets.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-work:not-soo-techie/Google-OAuth2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "nodemon": "^3.1.10",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0"
+  }
+}
